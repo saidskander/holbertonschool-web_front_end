@@ -32,12 +32,13 @@ body {
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
 }
+
 .section-header {
-    text-align: var(--section-header-align);
+  text-align: var(--section-header-align);
 }
 
 .section-tagline {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 h1, h2, h3, h4,
