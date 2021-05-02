@@ -18,6 +18,7 @@
   --line-height-big: 1.8;
   --line-height-base: 1.5;
   --section-header-align: center;
+    --section-tagline-transform: uppercase;
 }
 
 html {
@@ -39,6 +40,9 @@ body {
 
 .section-tagline {
   color: var(--color-primary);
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
 }
 
 h1, h2, h3, h4,
