@@ -1,0 +1,13 @@
+/* left and rigth possitions */
+@mixin horizontalMargins($size) {
+	margin-left: $size;
+	margin-right: $size;
+}
+
+body {
+	@include horizontalMargins(10px);
+}
+
+div {
+	@include horizontalMargins(15px);
+}
