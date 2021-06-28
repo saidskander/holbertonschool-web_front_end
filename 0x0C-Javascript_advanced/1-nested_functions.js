@@ -1,4 +1,4 @@
-// Closure Scope Chain
+// Scope Chain
 const globalVariable = "Welcome";
 function outer() {
  alert(globalVariable);
