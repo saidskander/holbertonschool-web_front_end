@@ -1,16 +1,16 @@
-// Scope Chain
+// Closure Scope Chain
 const globalVariable = "Welcome";
 function outer() {
  alert(globalVariable);
  const course = "Holberton";
  const exclamation = "!";
-  function inner() {
+ function inner() {
    alert(`${globalVariable} ${course}`);
    function inception() {
-     alert(`${globalVariable} ${course}${exclamation}`);
-   }
-   inception();
+    alert(`${globalVariable} ${course}${exclamation}`);
+    }
+  inception();
   }
-  inner();
+inner();
 }
 outer();
