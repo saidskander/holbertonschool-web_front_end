@@ -1,4 +1,4 @@
-// changing mode by the user
+// changing mode by the user check html file
 function changeMode(size, weight, transform, background, color) {
   return () => {
     document.body.style.fontSize = size + 'px';
