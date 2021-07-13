@@ -16,30 +16,36 @@
   width: 5rem;
   height: 3rem;
   font-size: 1rem;
-  background-color: rebeccapurple;
+  background-color: rgb(28, 205, 72);
   color: white;
 }
 
 .box5 {
-  background-color: turquoise;
+  background-color:rgb(255, 122, 0);
 }
 
-.box2, .box4 {
+.box2 {
   width: 8rem;
   height: 5rem;
   font-size: 2rem;
-  background-color: violet;
+  background-color:rgb(0, 201, 255);
   color: white;
 }
 
+
 .box4 {
-  background-color: dodgerblue;
+  background-color: #6c2e6a;
+    width: 8rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: white;
 }
 
 .box3 {
   width: 11rem;
   height: 7rem;
   font-size: 4rem;
-  background-color: rgb(255, 174, 0);
+  background-color:#2e3f42 ;
   color: white;
 }
+
